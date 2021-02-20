@@ -1,0 +1,16 @@
+Package: rustsample
+Type: Package
+Title: Simple Alias Sampling with Replacement
+Version: 0.0.1
+Authors@R: c(
+    person("Tommy", "Jones", , "jones.thos.w@gmail.com", c("aut", "cre"))
+  )
+Description: A simple alias sampler built in Rust.
+License: MIT + file LICENSE
+SystemRequirements: Rust tool chain w/ cargo, libclang/llvm-config
+Encoding: UTF-8
+LazyData: true
+Suggests:
+    rmarkdown,
+    testthat
+RoxygenNote: 7.1.1
